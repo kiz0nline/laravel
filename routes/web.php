@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//@duypha
+Route::get('hello/', function () {
+    echo "My name is duypha";
+});
